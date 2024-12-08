@@ -1,1 +1,67 @@
+def process_data_package(data):
+    pass
+data_2022 = {
+    "financial_status": {
+        "total_assets": 9420330031.4, "current_assets": 2612615245.37, "cash_and_cash_equivalents": 2327417128.56,
+        "accounts_receivable": 967553.58, "non_current_assets": 6807714786.03, "fixed_assets": 2457072204.7,
+        "intangible_assets": 1005965166.86
+    },
+    "liabilities": {
+        "total_liabilities": 1587666176.77, "current_liabilities": 851012578.09, "accounts_payable": 327422065.65,
+        "short_term_non_current_liabilities": 296544168.77
+    },
+    "owners_equity": {
+        "total_equity": 7832663854.63, "share_capital": 2614694040.0, "capital_surplus": 1216809518.63,
+        "retained_earnings": 568611841.52, "undistributed_profits": 3231897540.41, "minority_interest": 283488094.01
+    },
+    "operating_results": {
+        "operating_revenue": 457814963.29, "operating_costs": 228283893.91, "selling_expenses": 22309604.15,
+        "administrative_expenses": 391904892.7, "r_and_d_expenses": 18570037.2, "financial_expenses": -27200756.59,
+        "total_profit": -13840695.91, "income_tax": 3482102.45, "net_profit": -17322798.36,
+        "net_profit_attributable_to_parent_company": 9657950.15
+    },
+    "cash_flow": {
+        "net_cash_from_operating_activities": 331954693.02, "net_cash_from_investing_activities": 309184401.59,
+        "net_cash_from_financing_activities": -195609286.56, "net_increase_in_cash_and_cash_equivalents": 461648578.43
+    },
+    "key_financial_indicators": {
+        "debt_to_asset_ratio": 16.85, "current_ratio": 3.07, "quick_ratio": 3.06, "interest_coverage_ratio": 0.56,
+        "total_asset_growth_rate": -4.13, "sales_growth_rate": -61.36, "net_profit_growth_rate": -105.72,
+        "net_profit_margin": -3.78, "roe_average": 0.13, "roe_average_non_recurring": -0.48,
+        "basic_earnings_per_share": 0.0037, "diluted_earnings_per_share": 0.0037,
+        "basic_earnings_per_share_non_recurring": -0.0140, "diluted_earnings_per_share_non_recurring": -0.0140,
+        "accounts_receivable_turnover": 289.29, "cash_flow_per_share_from_operating_activities": 0.13,
+        "net_cash_flow_per_share": 0.18, "equity_per_share_attributable_to_parent_company": 2.89
+    }
+}
 
+data_2023 = {
+    "revenue": 1926317151.78, "net_profit": -109912039.45, "deducted_net_profit": -88308966.25,
+    "cash_flow_from_operations": 1418781082.34, "basic_eps": -0.0420, "diluted_eps": -0.0420,
+    "roa": -1.49, "total_assets": 9065382180.46, "shareholders_equity": 7252140320.42,
+    "shareholders": 83689, "dividend_per_share": 1, "r_and_d_expense": 30007469.4, "r_and_d_personnel": 180
+}
+
+data_2024 = {
+    "net_profit_margin": 33.145, "net_profit": 1181882542.77, "sales_revenue": 2393102188.06,
+    "asset_turnover": 11.643, "total_assets": 7353240231.9, "return_on_equity": 14.084,
+    "shareholders_equity": 6036749754.74, "total_asset_return_rate": 14.084, "total_profit": 1430302550.29,
+    "interest_expense": 11128343.42, "average_total_assets": 7108943066.1, "operating_profit_margin": 42.175,
+    "operating_profit": 1444682699.08, "operating_revenue": 2393102188.06, "cost_to_profit_ratio": 101.709,
+    "total_cost_and_expense": 989510635.36, "net_working_capital": 4680468017.15, "current_assets": 5705454052.06,
+    "current_liabilities": 1022522530.14, "current_ratio": 4.1, "quick_ratio": 4.08,
+    "quick_assets": 5523038862.78, "cash_ratio": 3.75, "cash_and_cash_equivalents": 5137056463.45,
+    "trading_financial_assets": 225478144.34, "cash_flow_ratio": 1.11, "cash_flow_from_operating_activities": 1511780716.72,
+    "debt_to_asset_ratio": 32.9, "total_liabilities": 3333267338.1, "equity_ratio": 14.35,
+    "interest_coverage_ratio": 96.14, "ebt": 1430302550.29, "cash_flow_interest_coverage_ratio": 100.24,
+    "operating_cash_flow_debt_ratio": 0.33, "total_debt": 3333267338.1, "accounts_receivable_turnover": 344.92,
+    "sales_revenue": 2393102188.06, "accounts_receivable": 3576977.14, "inventory_turnover": 288.15,
+    "cost_of_goods_sold": 399073069.94, "average_inventory": 6227474.56, "asset_turnover_rate": 0.25,
+    "operating_revenue": 2393102188.06, "average_total_assets": 7108943066.1, "debt_turnover_ratio": 1.51,
+    "operating_profit": 1444682699.08, "average_total_liabilities": 1084765612.62, "equity_turnover_ratio": 0.3,
+    "net_profit": 1181882542.77, "average_total_equity": 5782154977.92, "revenue_growth_rate": 72.9,
+    "increase_in_revenue": 1155075366.09, "previous_year_revenue": 1617729096.63, "capital_maintenance_and_appreciation_rate": 8.08,
+    "end_of_year_equity": 6036749754.74, "start_of_year_equity": 5441610230.31, "capital_accumulation_rate": 8.44,
+    "increase_in_equity": 595139524.43, "total_asset_growth_rate": 6.11, "increase_in_total_assets": 554194104.06,
+    "start_of_year_total_assets": 9065382180.46
+}
