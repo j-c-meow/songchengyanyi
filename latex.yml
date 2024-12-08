@@ -1,0 +1,12 @@
+name: LaTeX Build
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Install TeX Live
+      run: sudo apt-get install texlive-full
+    - name: Build LaTeX document
+      run: pdflatex main.tex
