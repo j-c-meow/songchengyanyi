@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{booktabs} % For formal tables
+
+\begin{document}
+
+\begin{table}[ht]
+\centering
+\caption{Financial Summary}
+\begin{tabular}{ll}
+\toprule
+\textbf{Metric} & \textbf{Value} \\
+\midrule
+Revenue & 1,926,317,151.78 CNY (+320.76\% YoY) \\
+Net Profit Attributable to Shareholders & -109,912,039.45 CNY (-130.20\% YoY) \\
+Net Profit Attributable to Shareholders (Excluding Non-recurring Items) & -88,308,966.25 CNY (+6.16\% YoY) \\
+Net Cash Flow from Operating Activities & 1,418,781,082.34 CNY (+327.40\% YoY) \\
+Basic Earnings Per Share & -0.0420 CNY (-129.51\% YoY) \\
+Diluted Earnings Per Share & -0.0420 CNY (-129.51\% YoY) \\
+Return on Average Equity & -1.49\% (-0.86\% YoY) \\
+Total Assets & 9,065,382,180.46 CNY (-3.13\% YoY) \\
+Equity Attributable to Shareholders & 7,252,140,320.42 CNY (-3.14\% YoY) \\
+Number of Shareholders at the End of the Reporting Period & 83,689 \\
+Number of Shareholders One Month Before the Disclosure & 76,010 \\
+Dividend per Share & 1 CNY (including tax) \\
+Red Shares per Share & 0 CNY (including tax) \\
+R&D Expenditure & 30,007,469.40 CNY (1.56\% of Revenue, -2.5\% YoY) \\
+Number of R&D Personnel & 180 (+13.92\% YoY) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}
