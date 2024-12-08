@@ -1,0 +1,78 @@
+\documentclass{article}
+\usepackage{booktabs} % For formal tables
+
+\begin{document}
+
+\begin{table}[ht]
+\centering
+\caption{Financial Summary for 2022 (Part 1)}
+\begin{tabular}{ll}
+\toprule
+\textbf{Metric} & \textbf{Value} \\
+\midrule
+Total Assets & 9,420,330,031.40 CNY (-4.13\% YoY) \\
+Current Assets & 2,612,615,245.37 CNY (+30.12\% YoY) \\
+Cash and Cash Equivalents & 2,327,417,128.56 CNY (+25.21\% YoY) \\
+Accounts Receivable & 967,553.58 CNY (-55.97\% YoY) \\
+Non-Current Assets & 6,807,714,786.03 CNY (-12.93\% YoY) \\
+Fixed Assets & 2,457,072,204.70 CNY (-8.90\% YoY) \\
+Intangible Assets & 1,005,965,166.86 CNY (-41.27\% YoY) \\
+Total Liabilities & 1,587,666,176.77 CNY (-15.16\% YoY) \\
+Current Liabilities & 851,012,578.09 CNY (+13.79\% YoY) \\
+Accounts Payable & 327,422,065.65 CNY (-32.06\% YoY) \\
+Short-term Non-current Liabilities & 296,544,168.77 CNY (+704.72\% YoY) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\clearpage
+\begin{table}[ht]
+\centering
+\caption{Financial Summary for 2022 (Part 2)}
+\begin{tabular}{ll}
+\toprule
+\textbf{Metric} & \textbf{Value} \\
+\midrule
+Total Equity & 7,832,663,854.63 CNY (-1.54\% YoY) \\
+Share Capital & 2,614,694,040.00 CNY \\
+Capital Surplus & 1,216,809,518.63 CNY (-2.66\% YoY) \\
+Retained Earnings & 568,611,841.52 CNY (+6.54\% YoY) \\
+Undistributed Profits & 3,231,897,540.41 CNY (-4.88\% YoY) \\
+Minority Interest & 283,488,094.01 CNY (-8.68\% YoY) \\
+Operating Revenue & 457,814,963.29 CNY (-61.36\% YoY) \\
+Operating Costs & 228,283,893.91 CNY (-60.61\% YoY) \\
+Selling Expenses & 22,309,604.15 CNY (-66.29\% YoY) \\
+Administrative Expenses & 391,904,892.70 CNY (+52.98\% YoY) \\
+R&D Expenses & 18,570,037.20 CNY (-54.90\% YoY) \\
+Financial Expenses & -27,200,756.59 CNY (+2749.51\% YoY) \\
+Total Profit & -13,840,695.91 CNY (-104.03\% YoY) \\
+Income Tax & 3,482,102.45 CNY (-91.56\% YoY) \\
+Net Profit & -17,322,798.36 CNY (-105.72\% YoY) \\
+Net Profit Attributable to Parent Company & 9,657,950.15 CNY (-96.94\% YoY) \\
+Net Cash from Operating Activities & 331,954,693.02 CNY (-55.77\% YoY) \\
+Net Cash from Investing Activities & 309,184,401.59 CNY (+945.68\% YoY) \\
+Net Cash from Financing Activities & -195,609,286.56 CNY (+0.30\% YoY) \\
+Net Increase in Cash & Cash Equivalents & 461,648,578.43 CNY (-11.39\% YoY) \\
+Debt to Asset Ratio & 16.85\% (-2.19pp YoY) \\
+Current Ratio & 3.07 (+0.39 YoY) \\
+Quick Ratio & 3.06 (+0.39 YoY) \\
+Interest Coverage Ratio & 0.56 (-10.93 YoY) \\
+Total Asset Growth Rate & -4.13\% (-10.99pp YoY) \\
+Sales Growth Rate & -61.36\% (-92.63pp YoY) \\
+Net Profit Growth Rate & -105.72\% (-222.85pp YoY) \\
+Net Profit Margin & -3.78\% (-29.32pp YoY) \\
+ROE (Average) & 0.13\% (-4.09pp YoY) \\
+ROE (Average, Excluding Non-recurring Items) & -0.48\% (-4.06pp YoY) \\
+Basic Earnings Per Share & 0.0037 CNY (-96.93\% YoY) \\
+Diluted Earnings Per Share & 0.0037 CNY (-96.93\% YoY) \\
+Basic Earnings Per Share (Excluding Non-recurring Items) & -0.0140 CNY (-114.27\% YoY) \\
+Diluted Earnings Per Share (Excluding Non-recurring Items) & -0.0140 CNY (-114.27\% YoY) \\
+Accounts Receivable Turnover & 289.29 (-1.28\% YoY) \\
+Cash Flow per Share from Operating Activities & 0.13 CNY (-58.62\% YoY) \\
+Net Cash Flow per Share & 0.18 CNY (-10\% YoY) \\
+Equity per Share Attributable to Parent Company & 2.89 CNY (-1.03\% YoY) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}
