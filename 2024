@@ -1,0 +1,91 @@
+\documentclass{article}
+\usepackage{booktabs} % For formal tables
+
+\begin{document}
+
+\begin{table}[ht]
+\centering
+\caption{Financial Summary for 24 Years (Part 1)}
+\begin{tabular}{ll}
+\toprule
+\textbf{Metric} & \textbf{Value} \\
+\midrule
+Net Profit Margin & 33.145\% \\
+Net Profit & 1,181,882,542.77 CNY \\
+Sales Revenue & 2,393,102,188.06 CNY \\
+Asset Turnover & 11.643\% \\
+Total Assets & 7,353,240,231.90 CNY \\
+Return on Equity & 14.084\% \\
+Shareholders' Equity & 6,036,749,754.74 CNY \\
+Total Asset Return Rate & 14.084\% \\
+Total Profit & 1,430,302,550.29 CNY \\
+Interest Expense & 11,128,343.42 CNY \\
+Average Total Assets & 7,108,943,066.10 CNY \\
+Operating Profit Margin & 42.175\% \\
+Operating Profit & 1,444,682,699.08 CNY \\
+Operating Revenue & 2,393,102,188.06 CNY \\
+Cost to Profit Ratio & 101.709\% \\
+Total Cost and Expense & 989,510,635.36 CNY \\
+Net Working Capital & 4,680,468,017.15 CNY \\
+Current Assets & 5,705,454,052.06 CNY \\
+Current Liabilities & 1,022,522,530.14 CNY \\
+Current Ratio & 4.10 \\
+Quick Ratio & 4.08 \\
+Quick Assets & 5,523,038,862.78 CNY \\
+Cash Ratio & 3.75 \\
+Cash and Cash Equivalents & 5,137,056,463.45 CNY \\
+Trading Financial Assets & 225,478,144.34 CNY \\
+Cash Flow Ratio & 1.11 \\
+Cash Flow from Operating Activities & 1,511,780,716.72 CNY \\
+Debt to Asset Ratio & 32.90\% \\
+Total Liabilities & 3,333,267,338.10 CNY \\
+Equity Ratio & 14.35\% \\
+Interest Coverage Ratio & 96.14 \\
+Earnings Before Interest and Taxes & 1,430,302,550.29 CNY \\
+Cash Flow Interest Coverage Ratio & 100.24 \\
+Operating Cash Flow to Debt Ratio & 0.33 \\
+Total Debt & 3,333,267,338.10 CNY \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\clearpage
+
+\begin{table}[ht]
+\centering
+\caption{Financial Summary for 24 Years (Part 2)}
+\begin{tabular}{ll}
+\toprule
+\textbf{Metric} & \textbf{Value} \\
+\midrule
+Accounts Receivable Turnover & 344.92 \\
+Sales Revenue & 2,393,102,188.06 CNY \\
+Accounts Receivable & 3,576,977.14 CNY \\
+Inventory Turnover & 288.15 \\
+Cost of Goods Sold & 399,073,069.94 CNY \\
+Average Inventory & 6,227,474.56 CNY \\
+Asset Turnover Rate & 0.25 \\
+Operating Revenue & 2,393,102,188.06 CNY \\
+Average Total Assets & 7,108,943,066.10 CNY \\
+Debt Turnover Ratio & 1.51 \\
+Operating Profit & 1,444,682,699.08 CNY \\
+Average Total Liabilities & 1,084,765,612.62 CNY \\
+Equity Turnover Ratio & 0.30 \\
+Net Profit & 1,181,882,542.77 CNY \\
+Average Total Equity & 5,782,154,977.92 CNY \\
+Revenue Growth Rate & 72.90\% \\
+Increase in Revenue & 1,155,075,366.09 CNY \\
+Revenue of the Previous Year & 1,617,729,096.63 CNY \\
+Capital Maintenance and Appreciation Rate & 8.08\% \\
+End of Year Equity & 6,036,749,754.74 CNY \\
+Start of Year Equity & 5,441,610,230.31 CNY \\
+Capital Accumulation Rate & 8.44\% \\
+Increase in Equity & 595,139,524.43 CNY \\
+Total Asset Growth Rate & 6.11\% \\
+Increase in Total Assets & 554,194,104.06 CNY \\
+Start of Year Total Assets & 9,065,382,180.46 CNY \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}
