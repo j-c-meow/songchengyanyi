@@ -1,4 +1,4 @@
-这样吧 your code like a shit 我来帮你优化一下
+#your code like a shit 
 import pandas
 import numpy
 import PyQT
