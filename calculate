@@ -1,6 +1,89 @@
-import numpy as np
-K0 = 54.4161023031
-r = 0.0844
-t = 1
-Kt = K0 * np.exp(r * t)
-print(Kt)
+# ***请不要在除了井号后位置出现中文特别是运算项中否则会出现NameError: name 'calculate_financial_ratios' is not defined***
+net_profit = 1181882542.77  # 净利润
+sales_revenue = 2393102188.06  # 销售收入
+total_assets = 7353240231.90  # 总资产
+shareholders_equity = 6036749754.74  # 股东权益
+total_profit = 1430302550.29  # 利润总额
+interest_expense = 11128343.42  # 利息支出
+average_total_assets = 7108943066.10  # 平均资产总额
+operating_profit = 1444682699.08  # 营业利润
+operating_revenue = 2393102188.06  # 营业收入
+total_liabilities = 3333267338.10  # 总负债
+current_assets = 5705454052.06  # 流动资产
+current_liabilities = 1022522530.14  # 流动负债
+quick_assets = 5523038862.78  # 速动资产
+cash_and_cash_equivalents = 5137056463.45  # 货币资金
+trading_financial_assets = 225478144.34  # 交易性金融资产
+operating_cash_flow = 1511780716.72  # 经营活动现金流量
+average_liabilities = 1084765612.62  # 平均负债总额
+average_owners_equity = 5782154977.92  # 平均所有者权益总额
+receivables = 3576977.14  # 应收账款
+cost_of_goods_sold = 399073069.94  # 营业成本
+average_inventory = 6227474.56  # 平均存货余额
+previous_year_sales_revenue = 1617729096.63  # 上年营业收入总额
+current_year_sales_revenue_growth = 1155075366.09  # 当年营业收入增长额
+beginning_owners_equity = 5441610230.31  # 年初所有者权益
+owners_equity_growth = 5951395244.3  # 本年所有者权益增长额
+beginning_total_assets = 9065382180.46  # 年初总资产
+total_assets_growth = 554194104.06  # 总资产增长额
+cost_and_expenses = 989510635.36  # 成本费用总额
+
+# 盈利能力分析
+net_profit_margin = (net_profit / sales_revenue) * 100
+asset_net_profit_margin = (net_profit / total_assets) * 100
+equity_net_profit_margin = (net_profit / shareholders_equity) * 100
+return_on_total_assets = ((total_profit + interest_expense) / average_total_assets) * 100
+operating_profit_margin = (operating_profit / operating_revenue) * 100
+cost_to_profit_margin = (total_profit / cost_and_expenses) * 100
+
+# 偿债能力分析
+net_working_capital = current_assets - current_liabilities
+current_ratio = current_assets / current_liabilities
+quick_ratio = quick_assets / current_liabilities
+cash_ratio = (cash_and_cash_equivalents + trading_financial_assets) / current_liabilities
+cash_flow_ratio = operating_cash_flow / current_liabilities
+debt_to_asset_ratio = (total_liabilities / total_assets) * 100
+debt_to_equity_ratio = total_liabilities / shareholders_equity
+interest_coverage_ratio = total_profit / interest_expense
+cash_flow_interest_coverage_ratio = operating_cash_flow / interest_expense
+operating_cash_flow_to_debt_ratio = (operating_cash_flow / total_liabilities) * 100
+
+# 营运能力分析
+receivables_turnover = sales_revenue / receivables
+inventory_turnover = cost_of_goods_sold / average_inventory
+asset_turnover = operating_revenue / average_total_assets
+liability_turnover = operating_profit / average_liabilities
+owners_equity_turnover = net_profit / average_owners_equity
+
+# 发展能力分析
+sales_revenue_growth_rate = (current_year_sales_revenue_growth / previous_year_sales_revenue) * 100
+capital_preservation_and_appreciation_rate = (shareholders_equity / beginning_owners_equity) * 100
+capital_accumulation_rate = (owners_equity_growth / beginning_owners_equity) * 100
+total_assets_growth_rate = (total_assets_growth / beginning_total_assets) * 100
+
+# 打印结果
+print(f"销售净利率: {net_profit_margin:.2f}%")
+print(f"资产净利率: {asset_net_profit_margin:.2f}%")
+print(f"权益净利率: {equity_net_profit_margin:.2f}%")
+print(f"总资产报酬率: {return_on_total_assets:.2f}%")
+print(f"营业利润率: {operating_profit_margin:.2f}%")
+print(f"成本费用利润率: {cost_to_profit_margin:.2f}%")
+print(f"净运营资本: {net_working_capital:.2f}元")
+print(f"流动比率: {current_ratio:.2f}")
+print(f"速动比率: {quick_ratio:.2f}")
+print(f"现金比率: {cash_ratio:.2f}")
+print(f"现金流量比率: {cash_flow_ratio:.2f}")
+print(f"资产负债率: {debt_to_asset_ratio:.2f}%")
+print(f"产权比率: {debt_to_equity_ratio:.2f}")
+print(f"利息保障倍数: {interest_coverage_ratio:.2f}")
+print(f"现金流量利息保障倍数: {cash_flow_interest_coverage_ratio:.2f}")
+print(f"经营现金流量债务比: {operating_cash_flow_to_debt_ratio:.2f}%")
+print(f"应收账款周转率: {receivables_turnover:.2f}")
+print(f"存货周转率: {inventory_turnover:.2f}")
+print(f"资产周转率: {asset_turnover:.2f}")
+print(f"负债周转率: {liability_turnover:.2f}")
+print(f"所有者权益周转率: {owners_equity_turnover:.2f}")
+print(f"营业收入增长率: {sales_revenue_growth_rate:.2f}%")
+print(f"资本保值增值率: {capital_preservation_and_appreciation_rate:.2f}%")
+print(f"资本积累率: {capital_accumulation_rate:.2f}%")
+print(f"总资产增长率: {total_assets_growth_rate:.2f}%")
