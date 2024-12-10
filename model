@@ -1,0 +1,6 @@
+import numpy as np
+K0 = 54.4161023031
+r = 0.0844
+t = 1
+Kt = K0 * np.exp(r * t)
+print(Kt)
